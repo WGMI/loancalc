@@ -118,7 +118,7 @@ $("#inputs").on("click change", function(e) {
 const computeInterest = (
   loan_value,
   period,
-  rate = 9,
+  rate = 6.91,
   facility_fee_rate = 0.04,
   credit_life_rate = 0.007
 ) => {
